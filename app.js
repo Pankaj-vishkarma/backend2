@@ -9,7 +9,7 @@ const cors=require('cors')
 database()
 app.use(cors(
     {
-        origin:["https://frontend2-self.vercel.app"],
+        origin:["https://unique-entremet-b0486f.netlify.app"],
         credentials:true
     }
 ))
