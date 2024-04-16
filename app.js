@@ -9,7 +9,7 @@ const cors=require('cors')
 database()
 app.use(cors(
     {
-        origin:["http://localhost:5173"],
+        origin:["https://frontend2-self.vercel.app"],
         credentials:true
     }
 ))
